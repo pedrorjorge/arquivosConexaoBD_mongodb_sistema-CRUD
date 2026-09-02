@@ -10,6 +10,7 @@ Mongoose - ODM (Object Data Modeling) para MongoDB em Node.js
 
 dotenv - Módulo para carregar variáveis de ambiente de um arquivo .env
 
+
 📡 Rotas da API (CRUD)
 
 POST /vendas - Cadastra uma nova venda
@@ -20,8 +21,11 @@ PUT /vendas/:id - Atualiza uma venda pelo ID
 
 DELETE /vendas/:id - Remove uma venda pelo ID
 
+
+```text
 Estrutura de Arquivos
 ├── .env                # Variáveis de ambiente sensíveis
 ├── api.js              # Arquivo principal do servidor e rotas da API
 ├── vendaMensal.js      # Schema/Model do Mongoose para as vendas
 └── package.json        # Dependências e scripts do projeto
+```
